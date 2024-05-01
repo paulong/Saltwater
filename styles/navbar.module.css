@@ -1,0 +1,45 @@
+
+
+
+.container{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    position:   sticky ;
+    top:0;
+    z-index: 5;
+    background-color: rgb(255, 255, 255,0.5);
+    margin: 0 -25px 0 -25px; ;
+    
+
+
+
+}
+
+.container a {
+    font-family: var(--font-family-2);
+    font-size: var(--font-size-P);
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;
+}
+
+.container li{
+    align-content: center;
+    width: 150px;
+    display: grid;
+    justify-content: center;
+    font-family: var(--font-family-2);
+    font-size: var(--font-size-P);
+}
+
+.container li:hover{
+    scale: 1.5 ; 
+  
+}

@@ -1,0 +1,105 @@
+.main {
+    padding: 25px;
+    min-height: 100vh;
+    max-width: 1600px;
+  }
+
+  .firtsbanner{
+    font-size: var(--font-size-SH);
+    font-family: var(--font-family-2);
+    text-align: center;
+
+  }
+
+
+  .section3{
+    background-color: var(--timberwolf);
+    margin: 0 -25px 0 -25px;
+    padding: var(--separation);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  
+  
+  
+  }
+  
+  .brandsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-items: center;
+    gap: var(--separation);
+    margin: var(--Separation-Section);
+   
+  
+  }
+  
+  .brandsItem{
+    width: 100%;
+    padding: var(--separation);
+    height: 500px;
+    border-radius: var(--radius);
+    color: white;
+    font-size: var(--font-size-P);
+
+  }
+
+  .brandsItem p{
+    font-family: var(--font-family-2);
+  }
+
+  .brandsItem h3{
+    font-family: var(--font-family);
+    font-size: var(--font-size-SH);
+  }
+  
+
+  
+
+  
+
+  .sectioncontainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+    margin: 0 -25px 0 -25px;
+    
+
+  }
+
+  .sectioncontainerItem{
+    font-family: var(--font-family-2);
+    font-size: var(--font-size-P);
+  
+    background-color: var( --Eerie-Black);
+    color: white;
+  }
+
+ 
+
+  .sectioncontainerItem li{
+    list-style: none;
+  }
+
+  .sectioncontainerItem h2{
+    font-size: var(--font-size-H);
+    font-family: var(--font-family);
+  }
+  .sectioncontainerItem p{
+   
+    font-family: var(--font-family-2);
+
+  }
+
+  .sectioncontainerItem img{
+    width: 100%;
+    
+    
+    }
+
+    .paddingText{
+
+      padding: 5%;
+      display: grid;
+      justify-content: space-around ;
+      align-items: stretch;
+    }
+

@@ -1,12 +1,12 @@
-import styles from './Footer.js'
+import styles from '../styles/footer.module.css'
 
 
 export default function Footer() {
 return(
 <>
 
-<div>
-    <h1> hello</h1>
+<div className={styles.ContainarFooter}>
+    <h1> Footer</h1>
 </div>
 
 
