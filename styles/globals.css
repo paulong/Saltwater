@@ -72,6 +72,23 @@ button:hover{
 }
 
 
+input,
+textarea,
+select {
+  outline: none;
+  font-size: calc(var(--font-size) *1.5); 
+  font-family: var(--font-family-2);
+ 
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  width: 300px;
+  
+  border: none;
+  border-bottom: 1px solid var(--Eerie-Black);
+  opacity: 70%;
+  text-align: center;
+}
+
 
 
 .backgroundImage{
@@ -91,3 +108,10 @@ button:hover{
  
 }
 
+
+.titulos{
+  font-family: var(--font-family-2);
+  font-size: var(--font-size-H);
+  text-align: center;
+
+}

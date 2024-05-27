@@ -1,5 +1,4 @@
 import styles from "../styles/portafolio.module.css"
-
 import Head from "next/head";
 import Link from "next/link";
 import logotipo from "../public/LOGOTIPO.png"
@@ -36,7 +35,9 @@ export  default function Portafolio (){
           <div><img src={logotipo.src}  alt="Logo"  /></div>
     </div>
 
-    <div className={styles.titulos}><h1>Projectos</h1></div>
+    <div className={styles.titulos}>
+      <h1>Proyecto seleccionados:</h1>
+    </div>
     
 
     
@@ -46,7 +47,7 @@ export  default function Portafolio (){
             <img src="3.jpg"    alt="Logo"/>
              <div className={styles.portafolioItemInfo}>
             
-            <h2>Projecto: PHA</h2>
+            <h2>Proyecto: PHA</h2>
             <h2>Tecnologia: Control4</h2>
             <h3>Instalaciones: </h3>
             <ul>
@@ -64,10 +65,34 @@ export  default function Portafolio (){
             </p>
               </div>
            
-            
-                
-            
         </div>
+
+        <div className={styles.separation}></div>
+<div className={styles.portafolioItemCollage}>
+
+            <img src="3.jpg"    alt="Logo"/>
+             <div className={styles.portafolioItemInfo}>
+            
+            <h2>Proyecto: PHA</h2>
+            <h2>Tecnologia: Control4</h2>
+            <h3>Instalaciones: </h3>
+            <ul>
+              <li> Iluminacion</li>
+              <li> Control de percianas</li>
+              <li> Audio distribuido</li>
+              <li> Seguridad</li>
+              <li> Termostatos</li>
+  
+            </ul>
+            <p> 
+              description: Nulla pariatur duis excepteur do quis et ad proident pariatur
+              sunt labore anim. Fugiat dolor amet aliquip sint anim in dolore eu aute reprehenderit. 
+              Laboris reprehenderit esse laborum dolor nisi minim. 
+            </p>
+              </div>
+           
+        </div>
+
 
        
 

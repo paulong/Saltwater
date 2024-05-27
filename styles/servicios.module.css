@@ -8,7 +8,9 @@
     font-size: var(--font-size-SH);
     font-family: var(--font-family-2);
     text-align: center;
-
+    margin: var(--Separation-Section);
+  
+  
   }
 
 
@@ -34,13 +36,22 @@
   }
   
   .brandsItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 100%;
     padding: var(--separation);
     height: 500px;
     border-radius: var(--radius);
     color: white;
     font-size: var(--font-size-P);
+  }
 
+    
+  .brandsItem button {
+  
+   width: fit-content;
+  
   }
 
   .brandsItem p{
