@@ -23,6 +23,7 @@
   .titulos{
     font-family: var(--font-family-2);
     font-size: var(--font-size-SH);
+    padding: var(--separation-2);
   }
   
   .separation {
@@ -50,16 +51,33 @@ align-content: center;
 
 
 .portafolioItemInfo{
-  display: block;
-  justify-content: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly  ;
   margin: 0;
   padding: 5%;
  
-  border-radius: 20px;
+}
+.Textheilight{
+
+  text-decoration: solid;
+  font-weight: bold;
+  font-size: var(--font-size-P);
+  font-family: var(--font-family);
+
+
+  
+
+}
+
+.portafolioItemInfo li {
+  list-style: none;
+
 }
 
 .portafolioItemInfo h2 {
   font-family: var(--font-family);
+  border-bottom: 1px solid var(--Eerie-Black)
 }
 
 

@@ -47,10 +47,10 @@ export  default function Portafolio (){
             <img src="3.jpg"    alt="Logo"/>
              <div className={styles.portafolioItemInfo}>
             
-            <h2>Proyecto: PHA</h2>
-            <h2>Tecnologia: Control4</h2>
-            <h3>Instalaciones: </h3>
+             <h2>PHB | Control4</h2>
+         
             <ul>
+            <h3 className={styles.Textheilight}>Instalaciones: </h3>
               <li> Iluminacion</li>
               <li> Control de percianas</li>
               <li> Audio distribuido</li>
@@ -59,7 +59,7 @@ export  default function Portafolio (){
   
             </ul>
             <p> 
-              description: Nulla pariatur duis excepteur do quis et ad proident pariatur
+            <span className={styles.Textheilight}> Description: </span>  Nulla pariatur duis excepteur do quis et ad proident pariatur
               sunt labore anim. Fugiat dolor amet aliquip sint anim in dolore eu aute reprehenderit. 
               Laboris reprehenderit esse laborum dolor nisi minim. 
             </p>
@@ -73,10 +73,11 @@ export  default function Portafolio (){
             <img src="3.jpg"    alt="Logo"/>
              <div className={styles.portafolioItemInfo}>
             
-            <h2>Proyecto: PHA</h2>
-            <h2>Tecnologia: Control4</h2>
-            <h3>Instalaciones: </h3>
+            <h2>Casa Carlota | Control4</h2>
+            
+          
             <ul>
+              <h3 className={styles.Textheilight}>Instalaciones: </h3>
               <li> Iluminacion</li>
               <li> Control de percianas</li>
               <li> Audio distribuido</li>
@@ -85,13 +86,128 @@ export  default function Portafolio (){
   
             </ul>
             <p> 
-              description: Nulla pariatur duis excepteur do quis et ad proident pariatur
+            <span className={styles.Textheilight}> Description: </span>  Nulla pariatur duis excepteur do quis et ad proident pariatur
               sunt labore anim. Fugiat dolor amet aliquip sint anim in dolore eu aute reprehenderit. 
               Laboris reprehenderit esse laborum dolor nisi minim. 
             </p>
               </div>
            
         </div>
+        <div className={styles.separation}></div>
+
+        <div className={styles.portafolioItemCollage}>
+
+            <img src="3.jpg"    alt="Logo"/>
+             <div className={styles.portafolioItemInfo}>
+            
+            <h2>PHA | Control4</h2>
+            
+          
+            <ul>
+            <h3 className={styles.Textheilight}>Instalaciones: </h3>
+              <li> Iluminacion</li>
+              <li> Control de percianas</li>
+              <li> Audio distribuido</li>
+              <li> Seguridad</li>
+              <li> Termostatos</li>
+  
+            </ul>
+            <p> 
+            <span className={styles.Textheilight}> Description: </span>  Nulla pariatur duis excepteur do quis et ad proident pariatur
+              sunt labore anim. Fugiat dolor amet aliquip sint anim in dolore eu aute reprehenderit. 
+              Laboris reprehenderit esse laborum dolor nisi minim. 
+            </p>
+              </div>
+           
+        </div>
+        <div className={styles.separation}></div>
+
+        <div className={styles.portafolioItemCollage}>
+
+            <img src="3.jpg"    alt="Logo"/>
+             <div className={styles.portafolioItemInfo}>
+            
+            <h2>Vista Azul | Control4</h2>
+            
+          
+            <ul>
+            <h3 className={styles.Textheilight}>Instalaciones: </h3>
+              <li> Iluminacion</li>
+              <li> Control de percianas</li>
+              <li> Audio distribuido</li>
+              <li> Seguridad</li>
+              <li> Termostatos</li>
+  
+            </ul>
+            <p> 
+            <span className={styles.Textheilight}> Description: </span>  Nulla pariatur duis excepteur do quis et ad proident pariatur
+              sunt labore anim. Fugiat dolor amet aliquip sint anim in dolore eu aute reprehenderit. 
+              Laboris reprehenderit esse laborum dolor nisi minim. 
+            </p>
+              </div>
+           
+        </div>
+        <div className={styles.separation}></div>
+        
+        <div className={styles.portafolioItemCollage}>
+
+            <img src="3.jpg"    alt="Logo"/>
+             <div className={styles.portafolioItemInfo}>
+            
+            <h2>VL | Control4</h2>
+            
+          
+            <ul>
+            <h3 className={styles.Textheilight}>Instalaciones: </h3>
+              <li> Iluminacion</li>
+              <li> Control de percianas</li>
+              <li> Audio distribuido</li>
+              <li> Seguridad</li>
+              <li> Termostatos</li>
+  
+            </ul>
+            <p> 
+            <span className={styles.Textheilight}> Description: </span>  Nulla pariatur duis excepteur do quis et ad proident pariatur
+              sunt labore anim. Fugiat dolor amet aliquip sint anim in dolore eu aute reprehenderit. 
+              Laboris reprehenderit esse laborum dolor nisi minim. 
+            </p>
+              </div>
+           
+        </div>
+        <div className={styles.separation}></div>
+
+        <div className={styles.portafolioItemCollage}>
+
+            <img src="3.jpg"    alt="Logo"/>
+             <div className={styles.portafolioItemInfo}>
+            
+            <h2>Casa Cu | Alexa <br/>
+            
+            
+            </h2>
+            
+           
+            <ul>
+            <h3 className={styles.Textheilight}>Instalaciones: </h3>
+              <li> Iluminacion.</li>
+              <li> Control de percianas.</li>
+              <li> Audio distribuido.</li>
+              <li> Seguridad.</li>
+              <li> Termostatos.</li>
+  
+            </ul>
+            <p> 
+            <span className={styles.Textheilight}> Description: </span> Nulla pariatur duis excepteur do quis et ad proident pariatur
+              sunt labore anim. Fugiat dolor amet aliquip sint anim in dolore eu aute reprehenderit. 
+              Laboris reprehenderit esse laborum dolor nisi minim. 
+            </p>
+              </div>
+           
+        </div>
+        <div className={styles.separation}></div>
+
+
+
 
 
        

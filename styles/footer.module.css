@@ -1,10 +1,21 @@
 .ContainarFooter{
-    height: 100px;
+    height: 200px;
     background-color: rgba(18,18,18,1);
     color: rgba(237,255,236,1);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin: 0 -25px -15px -25px;
-    padding: var(--separation);
+    padding: var(--separation-2);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: var(--font-family);
+    font-size: var(--font-size-P);
+    list-style: none;
 
 }
+
+
+.ContainarFooter ul {
+    list-style: none;
+}
+

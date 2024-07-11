@@ -37,9 +37,7 @@ return(
     <main className={styles.main}>
     <Navbar/>
  
-      <div className={styles.hero}>
-          <div><img src={logotipo.src}  alt="Logo"  /></div>
-    </div>
+      
 
 
     <div className={styles.Titulo}> 
@@ -134,7 +132,9 @@ return(
     
 
 
-
+    <div className={styles.hero}>
+          <div><img src={logotipo.src}  alt="Logo"  /></div>
+    </div>
     <Footer/>
     </main>
 </>

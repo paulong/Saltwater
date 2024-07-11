@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../styles/footer.module.css'
 
 
@@ -6,7 +7,29 @@ return(
 <>
 
 <div className={styles.ContainarFooter}>
-    <h1> Footer</h1>
+
+    <div>
+    <ul>
+        <li>Home </li>
+        <li> Home </li>
+        <li> Home</li>
+        <li> Home </li>
+    </ul>
+    </div>
+    <div>
+    <ul>
+        <li> tal verga </li>
+        <li> tal verga </li>
+        <li> tal verga </li>
+    </ul>
+    </div>
+    <div>
+    <ul>
+        <li> tal verga </li>
+        <li> tal verga </li>
+        <li> tal verga </li>
+    </ul>
+    </div>
 </div>
 
 
